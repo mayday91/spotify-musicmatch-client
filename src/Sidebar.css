@@ -1,0 +1,32 @@
+.sidebar {
+  /* border: 10px solid blue; */
+  background-color: #040404;
+  /* position: fixed; */
+  /* left: 0; */
+  height: 100vh;
+  /* padding: 5px; */
+  flex: 0.15;
+  color: white;
+  min-width: 230px;
+}
+
+.sidebar > img {
+  object-fit: contain;
+  /* position: fixed; */
+  /* left: 0; */
+  /* top: 0; */
+  width: 226px;
+}
+
+.sidebar__title {
+  text-align: center;
+  align-items: center;
+  padding: 5px;
+  margin: 10px
+}
+
+.sidebar > hr {
+  border: 1px solid #282828;
+  width: 90%;
+  margin: 10px auto;
+}

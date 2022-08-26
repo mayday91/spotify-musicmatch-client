@@ -1,0 +1,54 @@
+.footer {
+  border: 5px solid white;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  left: 0;
+  height: 65px;
+  width: 98%;
+  background-color: #282828;
+  padding: 10px;
+  color: aqua;
+}
+
+.footer__icon:hover {
+  color: gold;
+}
+
+.footer__green:hover {
+  color: gold;
+}
+
+.footer__play:hover {
+  color: gold;
+}
+
+.footer__green {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.footer__icon {
+  padding-left: 2px;
+  padding-right: 2px;
+  padding-bottom: 6px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.footer__left {
+  flex: 0.3;
+}
+
+.footer__right {
+  flex: 0.3;
+}
+
+.footer__center {
+  flex: 0.4;
+  padding: 0 100px;
+}

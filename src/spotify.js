@@ -32,4 +32,4 @@ export const getTokenFromUrl = () => {
     }, {})
 }
  
-export const loginUrl = `${authEndpoint}?client_id=${clientId}&scope=${scopes.join('%20')}&response_type=code&show_dialog=true&redirect_uri=${redirectUri}`
+export const loginUrl = `${authEndpoint}?client_id=${clientId}&scope=${scopes.join('%20')}&response_type=token&show_dialog=true&redirect_uri=${redirectUri}`
